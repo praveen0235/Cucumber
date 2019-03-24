@@ -49,7 +49,7 @@ public class StepDefinitionFile {
 	
 	
 
-	@SuppressWarnings("unchecked")
+	
 	@cucumber.api.java.en.When("^enter the company username password$")
 	public void enter_the_company_username_as_password_as() throws InterruptedException{
 		
@@ -95,7 +95,7 @@ public class StepDefinitionFile {
 			}
 		}
 		
-		driver.switchTo().window(Mainwindow1);*/
+		driver.switchTo().window(Mainwindow1);
 	}
 
 }

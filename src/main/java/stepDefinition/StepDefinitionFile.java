@@ -76,7 +76,7 @@ public class StepDefinitionFile {
 		driver.switchTo().window(Mainwindow);
 		
 				
-				driver.findElement(By.xpath("/html/body/table[2]/tbody/tr/td/font/b/a[2]")).click();
+				/*driver.findElement(By.xpath("/html/body/table[2]/tbody/tr/td/font/b/a[2]")).click();
 		String Mainwindow1 = driver.getWindowHandle();
 		
 		Set<String> allwindow1 = driver.getWindowHandles();
